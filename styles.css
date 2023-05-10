@@ -1,0 +1,39 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #d22030;
+}
+
+.img{
+  height: 200px;
+  width: 350px;
+  float: left;
+}
+
+ /* Tilt functionality fix */
+.gm-tilt {
+  display: none !important;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+}
+
+#info {
+  width: 25%;
+  padding: 20px;
+  color: white;
+}
+
+#feedback, #timer{
+  width: 25%;
+  padding: 20px;
+}
+
+#map {
+  width: 60%;
+  height: 100%;
+}
